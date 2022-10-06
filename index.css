@@ -50,6 +50,13 @@
 .form-check-label{
     margin-left: 5px;
 }
+.checkbox-input{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    display: block;
+    padding-bottom: 10px;
+}
 .submit-button{
     width: 100%;
     color: #fff;
