@@ -1,6 +1,7 @@
 .container{
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .description{
     padding-bottom: 30px;
