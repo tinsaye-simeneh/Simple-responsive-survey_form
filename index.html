@@ -77,7 +77,7 @@
         <label for="dropdown"
           >Which option best describes your current role?</label
         >
-        <select id="dropdown" class="form-control">
+        <select id="dropdown" class="form-control" required>
           <option disabled selected value>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time job">Full Time Job</option>
@@ -88,9 +88,19 @@
       </div>
 
         <div class="form-group">
+        <label for="dropdown"
+          >Would you recommend freeCodeCamp to a friend?</label>
       <div class="radio-input">
-        <input class="form-check-input left-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="..." />
+        <input class="form-check-input left-input" type="radio" name="Definitely" id="Definitely" checked required value="" aria-label="..." />
         <label class="form-check-label" for="radioNoLabel1"> Definitely</label> 
+    </div>
+    <div class="radio-input">
+        <input class="form-check-input left-input" type="radio" name="maybe" id="maybe" value="" required aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Maybe</label> 
+    </div>
+    <div class="radio-input">
+        <input class="form-check-input left-input" type="radio" name="notsure" id="notsure" required value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Not sure</label> 
     </div>
       </div>
 
@@ -98,7 +108,7 @@
         <label for="dropdown"
           >What is your favorite feature of freeCodeCamp?</label
         >
-        <select id="dropdown" class="form-control">
+        <select id="dropdown" class="form-control" required>
           <option disabled selected value>Select current role</option>
           <option value="student">Challenges</option>
           <option value="projects">Projects</option>
@@ -107,12 +117,64 @@
         </select>
       </div>
 
+      <div class="form-group">
+        <label for="dropdown"
+          >What would you like to see improved? (Check all that apply)</label
+        >
+        <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="front-end-projects" id="front-end-projects" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Front-end Projects</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="back-end-projects" id="back-end-projects" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Back-end Projects</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="data-visualization" id="data-visualization" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Data Visualization</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="challenges" id="challenges" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Challenges</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="open-source-community" id="open-source-community" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Open Source Community</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="gitter-help-rooms" id="gitter-help-rooms" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Gitter help rooms</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="videos" id="videos" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Videos</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="city-meetups" id="city-meetups" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> City Meetups</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="wiki" id="wiki" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Wiki</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="forum" id="forum" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Forum</label>
+    </div>
+    <div class="checkbox-input">
+        <input class="form-check-input left-input" type="checkbox" name="additional-courses" id="additional-courses" value="" aria-label="..." />
+        <label class="form-check-label" for="radioNoLabel1"> Additional Courses</label>
+    </div>
+        </div>
+
+
         <div class="form-group">
             <label for="comments">Any comments or suggestions?</label>
             <textarea
             id="comments"
             class="input-textarea"
             placeholder="Enter your comment here..."
+            required
             ></textarea>
         </div>
 
