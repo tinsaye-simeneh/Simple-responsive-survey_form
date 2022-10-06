@@ -1,0 +1,45 @@
+.container{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.description{
+    padding-bottom: 30px;
+}
+.form{
+    background-color: #103037;
+    opacity: 1;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.form-group{
+    margin: 0 auto;
+    width: 50%;
+}
+.form-control{
+    width: 100%;
+}
+.form-group label{
+    color: #fff;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+}
+.input-textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100px;
+}
+.submit-button{
+    width: 100%;
+    background-color: green;
+    borde
+    margin-top: 20px;
+}
+
